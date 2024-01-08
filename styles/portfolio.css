@@ -56,11 +56,15 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
-    display: flex;i
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    i
 }
 
 .btn-contact {
@@ -77,4 +81,44 @@ nav a {
     font-weight: 700;
     line-height: normal;
     background-color: transparent;
+}
+
+.banner .dp {
+    width: 500px;
+}
+
+.front-text {
+    padding: 150px 50px
+}
+
+.MainName {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+.greet {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro-text {
+color:  #757575;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+padding: 0px;
+
 }
