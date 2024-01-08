@@ -101,6 +101,7 @@ nav a {
     margin: 0px;
     border: 0px;
     padding: 0px;
+    align-items: center;
     
 }
 
@@ -112,6 +113,7 @@ nav a {
     font-weight: 600;
     margin: 0px;
     padding: 0px;
+    align-items: center;
 }
 
 .intro-text {
@@ -121,5 +123,6 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 padding: 0px;
+align-items: center;
 
 }
