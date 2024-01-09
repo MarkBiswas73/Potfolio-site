@@ -134,33 +134,35 @@ nav a {
 
 
 
-.about {
+.about-sec {
     padding: 130px;
-    width: 1140px;
-    height: 550px;
+    /* width: 1300px;
+    height: 550px; */
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF8F3;
+    align-items: center;
+    margin: 130px 0px;
 }
 
 .sec-title {
 
-    color: var(--Dark-01, #181818);
+    color: #181818;
     text-align: center;
     font-family: Open Sans;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    align-items: center;
 }
 
 .sec-des {
+    /* width: 827px; */
     color: var(--Dark-03, #757575);
     text-align: center;
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    
+    align-items: center;
+
 }
