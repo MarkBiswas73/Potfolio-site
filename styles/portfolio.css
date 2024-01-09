@@ -294,21 +294,47 @@ main {
 .btn2 {
     width: 200px;
     height: 64px;
-    flex-shrink: 0;
-    margin: 20px 700px;
+    margin: 40px 700px;
 }
 
 /* footer section */
 
 footer {
-    width: 1800px;
-    height: 780px;
-    flex-shrink: 0;
     display: flex;
     background: #FFF8F3;
-    padding: 130px 200px;
+    padding: 100px 600px;
+    gap: 100px;
 }
 
-.footer-col{
+.footer-col {
     width: 50%;
+}
+
+.des2 {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;/
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin: 25px;
+    pad: 18px 30px;
+    border: 0px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    width: 100%;
+}
+
+.submit {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    pad: 18px 30px;
+    border: 0px;
 }
