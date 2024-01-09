@@ -243,7 +243,7 @@ main {
 /* cv-section */
 
 
- 
+
 .cv-box {
     gap: 50px;
     background: var(--White-Color, #FFF);
@@ -257,12 +257,12 @@ main {
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    
+
 }
 
 .cv-item {
     background: var(--White-Color, #FFF);
-    
+
 }
 
 .cv-sub {
@@ -291,9 +291,24 @@ main {
 
 }
 
- .btn2{
+.btn2 {
     width: 200px;
-height: 64px;
-flex-shrink: 0;
-margin: 20px 700px;
- }
+    height: 64px;
+    flex-shrink: 0;
+    margin: 20px 700px;
+}
+
+/* footer section */
+
+footer {
+    width: 1800px;
+    height: 780px;
+    flex-shrink: 0;
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.footer-col{
+    width: 50%;
+}
