@@ -242,14 +242,58 @@ main {
 
 /* cv-section */
 
-.cv-box{
+
+ 
+.cv-box {
+    gap: 50px;
+    background: var(--White-Color, #FFF);
+    width: 1600px;
+    display: flex;
+}
+
+.col-title {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.cv-item {
+    background: var(--White-Color, #FFF);
+    
+}
+
+.cv-sub {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cv-item-inst {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.des {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 
 }
 
-.col-title{ 
-color: var(--Dark-02, #474747);
-font-family: Open Sans;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-}
+ .btn2{
+    width: 200px;
+height: 64px;
+flex-shrink: 0;
+margin: 20px 700px;
+ }
