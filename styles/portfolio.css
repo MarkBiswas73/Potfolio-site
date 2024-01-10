@@ -292,8 +292,8 @@ main {
 }
 
 .btn2 {
-   /* text-align: center; */
-   padding: 20px 550px;
+    /* text-align: center; */
+    padding: 20px 550px;
 }
 
 /* footer section */
@@ -334,4 +334,8 @@ textarea {
     border-radius: 5px;
     background: #FD6E0A;
     margin: 25px;
+}
+
+.social-links a {
+    margin-right: 25px;
 }
