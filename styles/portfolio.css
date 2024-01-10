@@ -142,7 +142,7 @@ main {
 
 
 .about-sec {
-    padding: 130px;
+    padding: 100px 150px;
     /* width: 1300px;
     height: 550px; */
     flex-shrink: 0;
@@ -200,7 +200,7 @@ main {
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 400;
-    margin: 0px 150px;
+    padding: 0px 150px;
 }
 
 /* skill section */
@@ -247,7 +247,7 @@ main {
 .cv-box {
     gap: 50px;
     background: var(--White-Color, #FFF);
-    width: 1600px;
+    width: 1400px;
     display: flex;
 }
 
@@ -292,9 +292,8 @@ main {
 }
 
 .btn2 {
-    width: 200px;
-    height: 64px;
-    margin: 40px 700px;
+   /* text-align: center; */
+   padding: 20px 550px;
 }
 
 /* footer section */
@@ -302,7 +301,7 @@ main {
 footer {
     display: flex;
     background: #FFF8F3;
-    padding: 100px 600px;
+    padding: 50px 300px;
     gap: 100px;
 }
 
@@ -325,16 +324,14 @@ textarea {
     pad: 18px 30px;
     border: 0px;
     border-radius: 5px;
-    background: var(--White-Color, #FFF);
+    background: #FFF;
     width: 100%;
 }
 
 .submit {
     width: 150px;
     height: 64px;
-    flex-shrink: 0;
     border-radius: 5px;
     background: #FD6E0A;
-    pad: 18px 30px;
-    border: 0px;
+    margin: 25px;
 }
